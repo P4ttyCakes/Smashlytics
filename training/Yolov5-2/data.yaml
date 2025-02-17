@@ -1,0 +1,15 @@
+names:
+- Net
+- Player1
+- Player2
+- Shuttlecock
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: yolov5-swgec
+  url: https://universe.roboflow.com/mathieu-cartron/yolov5-swgec/dataset/2
+  version: 2
+  workspace: mathieu-cartron
+test: ../test/images
+train: ../train/images
+val: ../valid/images
