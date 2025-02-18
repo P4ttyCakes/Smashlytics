@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
-model = YOLO('yolov8x.pt')
+model = YOLO('best.pt')
 
-result = model.predict('input_videos/Untitled design.mp4', save=True, project='output', name='test_run')
+result = model.predict('/Users/patricklu/Documents/GitHub/Smashlytics/input_videos/SlowedDown.mp4', conf=0.2, save=True, project='output', name='test_run')
 
 
 print(result)
